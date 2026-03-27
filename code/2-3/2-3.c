@@ -3,7 +3,7 @@
 
 int main() {
     char a[64] = "Hello";
-    char b[64] = "World";
+    char b[64] = "world";
     char c[128];
 
     int len = strlen(a);
@@ -13,7 +13,7 @@ int main() {
     printf("a: %s, c: %s\n", a, c);
 
     char space[64] = " ";
-    strcat(space, b);
+    strcat(space,b);
     strcat(c,space);
     printf("c: %s\n", c);
 
