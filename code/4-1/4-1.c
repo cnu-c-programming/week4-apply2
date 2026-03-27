@@ -7,13 +7,13 @@ int main() {
         printf("%d ", a[i]);
     printf("\n");
 
-    int b[2] = {1, 2};
+    int b[5] = {1, 2};
 
     for (int i = 0; i < 5; i++)
         printf("%d ", b[i]);
     printf("\n");
 
-    int c[2] = {0};
+    int c[5] = {0};
 
     for (int i = 0; i < 5; i++)
         printf("%d ", c[i]);
